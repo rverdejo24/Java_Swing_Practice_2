@@ -58,7 +58,7 @@ public class MainFrame {
 
         button.setPreferredSize(new Dimension(200, 75));
 
-        button.setMnemonic(KeyEvent.VK_P);
+        button.setMnemonic(KeyEvent.VK_P); // add a shortcut key to the button
 
         return button;
     }
